@@ -1,0 +1,214 @@
+@font-face {
+    font-family: 'caviar_dreamsregular';
+    src: url('font//CaviarDreams-webfont.eot');
+    src: url('font/CaviarDreams-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/CaviarDreams-webfont.woff') format('woff'),
+         url('font/CaviarDreams-webfont.ttf') format('truetype'),
+         url('font//CaviarDreams-webfont.svg#caviar_dreamsregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+	background-image: url("ppbg.gif");
+	font-family: "caviar_dreamsregular";
+}
+
+
+
+#container{
+	border: 5px solid #702121;
+	border-radius: 25px;
+	width: 80%;
+	margin: 0 auto;
+	margin-top: 2%;
+	padding: 1%;
+	background-color: rgba(202,182,182,.65);
+}
+
+#logins a {
+	text-decoration: none;
+	color: black;
+	font-size: 2.5em;
+	font-family: "caviar_dreamsregular";
+}
+
+#homeMessage a {
+	text-decoration: none;
+	color: black;
+}
+
+ #logins a:hover, #homeMessage a:hover{
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+.selected {
+	padding-left: 3%;
+	font-weight: bold;
+}
+
+#homeMessage{
+	width: 75%;
+	margin: 0 auto;
+	margin-top: 5%;
+	margin-bottom: 5%;
+	padding: 3%;
+	padding-top: 0;
+	border-left: 2px solid #702121;
+	border-right: 2px solid #702121;
+	text-align: center;
+}
+
+#homeMessage h1.intro {
+	text-align: center;
+	font-size: 4em;
+}
+#homeMessage p {
+	font-size: 2em;
+}
+
+#homeMessage h1 {
+	font-size: 1.5em;
+}
+
+.logo {
+	float: right;
+	margin-right: 11%;
+	margin-top: -2%;
+}
+
+form {
+	text-align: center;
+	font-size: 1em;
+}
+
+input[type=text] {
+	margin-top: .5%;
+	font-size: 15pt;
+	font-family: "caviar_dreamsregular";
+}
+input[type=password] {
+	margin-top: .5%;
+	font-size: 15pt;
+	font-family: "caviar_dreamsregular";
+}
+
+select {
+	font-size: 15pt;
+	font-family: "caviar_dreamsregular";
+}
+
+input[type=radio] {
+	width: 20px;
+	height: 20px;
+}
+
+input[type=submit] {
+	margin-top: .5%;
+	padding: .5%;
+	font-size: 15pt;
+	font-weight: bold;
+	font-family: "caviar_dreamsregular";
+}
+
+input[type=button] {
+	margin-top: .5%;
+	padding: .5%;
+	font-size: 15pt;
+	font-weight: bold;
+	font-family: "caviar_dreamsregular";
+}
+
+
+.error {
+	color: #702121;
+	font-weight: bold;
+	font-style: italic;
+}
+
+.book {
+	width: 100%;
+}
+
+.bookSection {
+	width: 30%;
+	height: 375px;
+	margin: 1%;
+	font-size: .75em;
+	float: left;
+	border: 2px solid #702121;
+	background-color: rgba(79, 23, 23, .45);
+}
+
+.bold {
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+#noFloat {
+	clear: both;
+}
+
+.profileOptions {
+	width: 45%;
+	margin: 0 auto;
+	margin-bottom: 3%;
+	border: 2px solid #702121;
+	background-color: rgba(202,182,182,.75);
+}
+
+.current {
+	width: 65%;
+	margin: 0 auto;
+	margin-bottom: 3%;
+	border: 2px solid #702121;
+	background-color: rgba(202,182,182,.75);
+}
+
+.favorite {
+	width: 100%;
+	margin: 0 auto;
+	margin-bottom: 3%;
+	border: 2px solid #702121;
+	background-color: rgba(202,182,182,.75);	
+}
+
+.deleteBookDisplay {
+	width: 30%;
+	margin: 0 auto;
+	font-size: .75em;
+	float: none;
+	border: 2px solid #702121;
+	background-color: rgba(79, 23, 23, .45);
+}
+
+.contactForm {
+	border: 2px solid #702121;
+	background-color: rgba(79, 23, 23, .25);
+}
+
+h2.contactMsg {
+	font-size: 2.5em;
+}
+.bookTable{
+	border: 5px solid #702121;
+	border-radius: 25px;
+	width: 80%;
+	margin: auto;
+	padding: 1%;
+}
+th{
+	background-color: #702121;
+	padding: 1%;
+	color: white;
+}
+tr{
+	border-top: 2px solid #702121;
+	background-color: rgba(202,182,182,.65);
+	font-size: 150%;
+	font-weight: bold;
+}
+.updateDeleteRow td{
+	padding-bottom: 4%;
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>WDV341 Intro PHP - Form Example</title>
+</head>
+
+<body>
+<h1>WDV341 Intro PHP</h1>
+<h2>WDV101 Intro HTML and CSS Chapter 9 - Creating Forms - Code Example</h2>
+<p><strong>Basic Form Handler</strong> - This process will display the 'name = value' pairs for all the elements of a form. This summary will on any number of form elements regardless of their name attribute value. </p>
+<p>Use <strong>basicFormExample.php</strong> in the action attribute of your form. </p>
+<p>Field '<strong>name</strong>' - The value of the name attribute from the HTML form element.</p>
+<p>Field <strong>'value</strong>' - The value entered in the field. This will vary depending upon the HTML form element.</p>
+<form id="form1" name="form1" method="post" action="formHandler.php">
+  <p>First Name: 
+    <input type="text" name="firstName" id="firstName" />
+</p>
+  <p>Last Name: 
+    <input type="text" name="lastName" id="lastName" />
+  </p>
+  <p>School: 
+    <input type="text" name="school" id="school" />
+  </p>
+  
+    <h3>Do You like Hotdogs?</h3>
+  <p>
+  <input type="radio" name="hotdogs" id="hotYes" value ="Love Hotdogs"> I Love Hotdogs!<br />
+  <input type="radio" name="hotdogs" id="hotNo" value ="Do Not Like Hotdogs">I Don't Like Hotdogs.<br />
+  <input type="radio" name="hotdogs" id="hotYes" value ="What are Hotdogs?">What are Hotdogs?
+  </p>
+  
+  <h3>What is Your Connection with Iowa?</h3>
+ <p>
+	<input type="checkbox" name="bornIA" value="born">I Was Born in Iowa.<br />
+	<input type="checkbox" name="liveIA" value="live">I Live in Iowa.
+ </p>
+  
+  <h3>Where Are You From?</h3>
+  <p>
+	<select name="fromState">
+		<option value="IA">Iowa</option>
+		<option value="MO">Missouri</option>
+		<option value="KS">Kansas</option>
+		<option value="MN">Minnesota</option>
+		<option value="Other">Other</option>
+	</select>
+  </p>
+  
+ 
+  <p>
+    <input type="submit" name="button" id="button" value="Submit" />
+    <input type="reset" name="button2" id="button2" value="Reset" />
+  </p>
+  
+</form>
+
+<p>&nbsp;</p>
+</body>
+
+</html>

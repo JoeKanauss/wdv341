@@ -1,0 +1,90 @@
+
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>WDV341 Intro PHP - Form Processing</title>
+
+<style>
+body {
+	background-color: #cce0ff;
+}
+
+#container {
+	width: 75%;
+	margin: 2% 10%;
+	border: 2px solid black;
+	text-align: center;
+	background-color: #e6f0ff;
+}
+
+input[type=text] {
+	background-color: #ffffcc;
+}
+
+select {
+	background-color: #ffffcc;
+}
+
+textarea{
+	background-color: #ffffcc;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div id="container">
+<h1>WDV341 Intro PHP</h1>
+<h2>Programming Project - Contact Form</h2>
+<form name="form1" method="post" action="contactResponseForm.php">
+  <p>&nbsp;</p>
+  <p>
+    <label>Your Name:
+      <input type="text" name="name" id="name">
+    </label>
+  </p>
+  <p>Your Email: 
+    <input type="text" name="email" id="email">
+  </p>
+  <p>Reason for contact: 
+    <label>
+      <select name="reason" id="reason">
+        <option value="default">Please Select a Reason</option>
+        <option value="Product">Product Problem</option>
+        <option value="Return">Return a Product</option>
+        <option value="Billing">Billing Question</option>
+        <option value="Technical">Report a Website Problem</option>
+        <option value="Other">Other</option>
+      </select>
+    </label>
+  </p>
+  <p>
+    <label>Comments:
+      <textarea name="comments" id="comments" cols="45" rows="5"></textarea>
+    </label>
+  </p>
+  <p>
+    <label>
+      <input type="checkbox" name="mailingList" id="mailingList" checked>
+      Please put me on your mailing list.</label>
+  </p>
+  <p>
+    <label>
+      <input type="checkbox" name="moreInfo" id="moreInfo" checked>
+      Send me more information</label>
+  about your products.  </p>
+  <p>
+    <input type="hidden" name="hiddenField" id="hiddenField" value="application-id:US447">
+  </p>
+  <p>
+    <input type="submit" name="button" id="button" value="Submit">
+    <input type="reset" name="button2" id="button2" value="Reset">
+  </p>
+</form>
+<p>&nbsp;</p>
+</div>
+</body>
+</html>
